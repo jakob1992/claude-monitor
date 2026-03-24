@@ -38,20 +38,11 @@ Claude Code Monitor                              14:32:05
 - Python 3.9+
 - Claude Code CLI
 
-## 빠른 설치
-
-```bash
-curl -fsSL https://raw.githubusercontent.com/yourusername/claude-monitor/main/install.sh | bash
-```
-
-## 수동 설치
+## 설치
 
 ```bash
 git clone https://github.com/yourusername/claude-monitor.git ~/claude-monitor
-cd ~/claude-monitor
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
+~/claude-monitor/install.sh
 ```
 
 `~/.zshrc`에 alias 추가:
