@@ -13,7 +13,7 @@ if [ -d "$REPO_DIR/.git" ]; then
   git -C "$REPO_DIR" pull --ff-only
 else
   echo "--> Cloning repository..."
-  git clone https://github.com/yourusername/claude-monitor.git "$REPO_DIR"
+  git clone "git@github.com:jakob1992/claude-monitor.git" "$REPO_DIR"
 fi
 
 # 2. Create venv and install dependencies

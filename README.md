@@ -41,7 +41,7 @@ Claude Code Monitor                              14:32:05
 ## 설치
 
 ```bash
-git clone https://github.com/yourusername/claude-monitor.git ~/claude-monitor
+git clone git@github.com:jakob1992/claude-monitor.git ~/claude-monitor
 ~/claude-monitor/install.sh
 ```
 
